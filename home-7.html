@@ -62,7 +62,8 @@
   </div>
 </nav>
 
-    <nav class="bg-[#650300]">
+    <div class="hidden md:block">
+      <nav class="bg-[#650300]">
     <ul
       class="container flex items-center text-white md:justify-between md:text-2xl lg:text-[32px] lg:leading-normal"
     >
@@ -93,7 +94,7 @@
         </ul>
       </li>
       <li>
-        <a class="shake-hover block" href="#">
+        <a class="shake-hover md:block hidden " href="#">
           <span class="material-symbols-outlined block text-[40px]">
             search
           </span>
@@ -101,7 +102,7 @@
       </li>
     </ul>
   </nav>
-    <!-- <div class="hidden md:block" id="navbarNews"></div> -->
+    </div>
 
     <section class="container pb-6 pt-10 md:pb-10 md:pt-20 lg:pb-8 lg:pt-24">
       <h2
@@ -270,9 +271,61 @@
           </div>
         </li>
       </ul>
-      <div id="pagination"></div>
+      <nav id="pagination">
+  <ul class="container flex items-center justify-center">
+    <li>
+      <a
+        class="me-[-1px] block text-nowrap border border-[#555555] p-3 text-[#555555] duration-300 ease-in-out hover:bg-black hover:text-white"
+        href="#"
+        >上一頁</a
+      >
+    </li>
+    <li>
+      <a
+        class="bg-black text-white me-[-1px] block border border-[#555555] px-[15px] py-3 duration-300 ease-in-out"
+        href="#"
+        >1</a
+      >
+    </li>
+    <li>
+      <a
+        class="me-[-1px] block border border-[#555555] px-[15px] py-3 text-[#555555] duration-300 ease-in-out hover:bg-black hover:text-white"
+        href="#"
+        >2</a
+      >
+    </li>
+    <li>
+      <a
+        class="me-[-1px] block border border-[#555555] px-[15px] py-3 text-[#555555] duration-300 ease-in-out hover:bg-black hover:text-white"
+        href="#"
+        >3</a
+      >
+    </li>
+    <li>
+      <a
+        class="me-[-1px] block border border-[#555555] px-[15px] py-3 text-[#555555] duration-300 ease-in-out hover:bg-black hover:text-white"
+        href="#"
+        >4</a
+      >
+    </li>
+    <li>
+      <a
+        class="me-[-1px] block border border-[#555555] px-[15px] py-3 text-[#555555] duration-300 ease-in-out hover:bg-black hover:text-white"
+        href="#"
+        >5</a
+      >
+    </li>
+    <li>
+      <a
+        class="me-[-1px] block text-nowrap border border-[#555555] bg-[#F2F2F2] p-3 text-[#555555] duration-300 ease-in-out hover:bg-black hover:text-white"
+        href="#"
+        >下一頁</a
+      >
+    </li>
+  </ul>
+</nav>
     </main>
-    
+
     <footer class="bg-main py-6 text-white md:pb-10 md:pt-12">
   <ul class="contact container">
     <li class="flex flex-wrap items-center justify-between pb-2 md:pb-6">
@@ -350,6 +403,6 @@
       <li>服務條款</li>
     </div>
   </ul>
-</footer>
+</footer>
   </body>
 </html>
