@@ -10,9 +10,9 @@
     />
   </head>
   <body>
-    <%- include('src/layout/navbar.ejs'); -%>
-    <%- include('src/layout/navbarGlasses.ejs'); -%>
-    
+    <%- include('src/layout/navbar.ejs'); -%> <%-
+    include('src/layout/navbarGlasses.ejs'); -%>
+
     <main>
       <div class="grid grid-cols-2">
         <div>
@@ -150,7 +150,7 @@
           </a>
         </li>
       </ul>
-      <div id="pagination"></div>
+      <%- include('src/components/pagination.ejs'); -%>
     </section>
     <%- include('src/layout/footer.ejs'); -%>
 

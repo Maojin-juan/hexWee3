@@ -89,7 +89,7 @@
   }
 
   .navbar-list {
-    @apply hover block py-3 text-center outline outline-1 outline-white md:py-6 md:outline-none;
+    @apply hover block bg-main py-3 text-center outline outline-1 outline-white md:py-6 md:outline-none;
   }
 
   /* .navbar-list(old) {
