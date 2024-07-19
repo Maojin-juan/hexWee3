@@ -12,8 +12,9 @@
   <body>
     <%- include('src/layout/navbar.ejs'); -%>
 
-    <%- include('src/layout/navbarNews.ejs'); -%>
-    <!-- <div class="hidden md:block" id="navbarNews"></div> -->
+    <div class="hidden md:block">
+      <%- include('src/layout/navbarNews.ejs'); -%>
+    </div>
 
     <section class="container pb-6 pt-10 md:pb-10 md:pt-20 lg:pb-8 lg:pt-24">
       <h2
