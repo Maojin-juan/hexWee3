@@ -59,13 +59,13 @@ npm start
     │          tailwind.css     # 自定義的 CSS 樣式
     │
     │─components
-    │      pagination.ejs      # 分頁組件
+    │      pagination.ejs      # 分頁元件
     │
     │─layout
     │      footer.ejs          # 頁尾
-    │      navbar.ejs          # 主導航欄
-    │      navbarGlasses.ejs   # 眼鏡種類導航欄
-    │      navbarNews.ejs      # 眼鏡消息導航欄
+    │      navbar.ejs          # 主導覽列
+    │      navbarGlasses.ejs   # 眼鏡種類導覽列
+    │      navbarNews.ejs      # 眼鏡消息導覽列
     │
     └─pages
             home-2.html        # Home 2 頁面
