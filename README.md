@@ -5,7 +5,7 @@
 
 > 第三、四周主線任務
 
-### 🏠 [Homepage](https://github.com/Maojin-juan/hexWeek3)
+### 🏠 [Github](https://github.com/Maojin-juan/hexWeek3)
 
 ## Install
 
@@ -30,10 +30,10 @@ npm start
 │  tailwind.config.js      # Tailwind CSS 的配置文件
 │  vite.config.js          # Vite 的配置文件
 │
-+─.vscode
+│─.vscode
 │      settings.json       # VSCode 工作區設置
 │
-+─dist
+│─dist
 │  │  home-2.html          # 編譯後的 Home 2 頁面
 │  │  home-3.html          # 編譯後的 Home 3 頁面
 │  │  home-4.html          # 編譯後的 Home 4 頁面
@@ -43,31 +43,31 @@ npm start
 │  │  home-8.html          # 編譯後的 Home 8 頁面
 │  │  index.html           # 編譯後的主 Home 頁面
 │  │
-│  \─assets
+│  └─assets
 │          main-C3Sxn8rb.css  # 編譯後的 CSS 文件
 │          main-VbA3fUrz.js   # 編譯後的 JavaScript 文件
 │
-+─src
+│─src
     │  main.js              # 項目的主 JavaScript 入口
     │
-    +─assets
+    │─assets
     │  │  facebbok-sqaure.svg  # Facebook Square 的 SVG
     │  │  instagram.svg        # Instagram 的 SVG
     │  │
-    │  \─style
+    │  └─style
     │          style.css        # Tailwind CSS 樣式
     │          tailwind.css     # 自定義的 CSS 樣式
     │
-    +─components
+    │─components
     │      pagination.ejs      # 分頁組件
     │
-    +─layout
+    │─layout
     │      footer.ejs          # 頁尾
     │      navbar.ejs          # 主導航欄
     │      navbarGlasses.ejs   # 眼鏡種類導航欄
     │      navbarNews.ejs      # 眼鏡消息導航欄
     │
-    \─pages
+    └─pages
             home-2.html        # Home 2 頁面
             home-3.html        # Home 3 頁面
             home-4.html        # Home 4 頁面
@@ -81,8 +81,6 @@ npm start
 ## Author
 
 👤 **毛巾**
-
-- Github: [@Maojin-juan](https://github.com/Maojin-juan)
 
 ---
 
