@@ -12,9 +12,7 @@
   <body>
     <%- include('src/layout/navbar.ejs'); -%>
 
-    <div class="block">
-      <%- include('src/layout/navbarNews.ejs'); -%>
-    </div>
+    <div class="block"><%- include('src/layout/navbarNews.ejs'); -%></div>
 
     <section class="container pb-2 pt-4 md:py-2 lg:pt-6">
       <ul class="grid gap-2">
@@ -48,8 +46,8 @@
               2020 Valentine’s Special
             </p>
           </div>
-          <ul class="grid gap-4 text-[#555555] md:gap-6 lg:gap-10">
-            <li>
+          <article class="grid gap-4 text-[#555555] md:gap-6 lg:gap-10">
+            <div>
               <img
                 class="blogValentineImg"
                 src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/blog-1.png?raw=true"
@@ -61,8 +59,8 @@
                 本次拍攝的鏡框款式與 NEEDS CLASSIC
                 聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！
               </p>
-            </li>
-            <li>
+            </div>
+            <div>
               <img
                 class="blogValentineImg"
                 src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/blogpage-2.png?raw=true"
@@ -74,8 +72,8 @@
                 本次拍攝的鏡框款式與 NEEDS CLASSIC
                 聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！
               </p>
-            </li>
-            <li>
+            </div>
+            <div>
               <img
                 class="blogValentineImg"
                 src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/blogpage-3.png?raw=true"
@@ -87,8 +85,8 @@
                 本次拍攝的鏡框款式與 NEEDS CLASSIC
                 聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！
               </p>
-            </li>
-            <li>
+            </div>
+            <div>
               <img
                 class="blogValentineImg"
                 src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/blogpage-4.png?raw=true"
@@ -109,8 +107,8 @@
                 <br />
                 讓彼此每一次睜開眼，都被愛的視線包圍!
               </p>
-            </li>
-          </ul>
+            </div>
+          </article>
         </article>
         <div
           class="col-span-3 hidden font-bold text-main md:block lg:col-span-4"
@@ -159,7 +157,7 @@
         </div>
         <div class="col-span-12 hidden md:grid lg:col-span-8">
           <ul class="flex gap-4">
-            <li><a class="btnHover block font-bold" href="#">Share</a></li>
+            <li><span class="font-bold">Share</span></li>
             <li>
               <a class="btnHover block" href="#">
                 <img
@@ -197,7 +195,7 @@
         </div>
       </div>
     </main>
-    
+
     <%- include('src/layout/footer.ejs'); -%>
 
     <script type="module" src="../main.js"></script>

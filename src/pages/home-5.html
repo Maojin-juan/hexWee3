@@ -14,20 +14,42 @@
 
     <section class="container pt-10 md:pt-20 lg:pt-24">
       <h2
-        class="before:quote relative pl-4 text-2xl md:text-5xl md:leading-normal"
+        class="border-l-8 border-main pl-4 text-2xl md:text-5xl md:leading-normal"
       >
+        <!-- class中原有before:quote relative -->
         門市據點
       </h2>
       <div class="flex items-center gap-2 py-6 md:gap-4 md:pb-10 md:pt-8">
-        <span class="text-nowrap">選擇分店</span>
-        <button
+        <label for="branchSelect" class="text-nowrap">選擇分店</label>
+        <select
+          class="w-full justify-between border border-[#CED4DA] px-3 py-[6px] md:w-[19rem]"
+          name="branch"
+          id="branchSelect"
+        >
+          <option class="text-nowrap text-[#495057]" value="台北中山旗艦店">
+            台北中山旗艦店
+          </option>
+          <option class="text-nowrap text-[#495057]" value="台北綠園店">
+            台北綠園店
+          </option>
+          <option class="text-nowrap text-[#495057]" value="台中清水旗艦店">
+            台中清水旗艦店
+          </option>
+          <option class="text-nowrap text-[#495057]" value="高雄中正形象店">
+            高雄中正形象店
+          </option>
+          <option class="text-nowrap text-[#495057]" value="高雄夢時代店">
+            高雄夢時代店
+          </option>
+        </select>
+        <!-- <button
           class="flex w-full items-center justify-between border border-[#CED4DA] px-3 py-[6px] md:w-[19rem]"
           type="button"
         >
           <p class="text-nowrap text-[#495057]">台北中山旗艦店</p>
           <span class="material-symbols-outlined">arrow_drop_down</span>
         </button>
-        <!-- <ul class="hidden">
+        <ul class="hidden">
           <li><a href="#">台北中山旗艦店</a></li>
           <li><a href="#">台北綠園店</a></li>
           <li><a href="#">台中清水旗艦店</a></li>

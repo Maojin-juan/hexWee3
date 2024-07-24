@@ -14,13 +14,29 @@
 
     <main class="container pb-16 pt-10 md:py-20 lg:pt-24">
       <h2
-        class="before:quote relative pl-4 text-2xl md:text-5xl md:leading-normal"
+        class="border-l-8 border-main pl-4 text-2xl md:text-5xl md:leading-normal"
       >
+        <!-- class中原有before:quote relative -->
         門市據點
       </h2>
       <div class="flex items-center gap-2 py-6 md:gap-4 md:pb-10 md:pt-8">
-        <span class="text-nowrap">選擇地區</span>
-        <button
+        <label for="districtSelect" class="text-nowrap">選擇地區</label>
+        <select
+          class="w-full justify-between border border-[#CED4DA] px-3 py-[6px] md:w-[19rem]"
+          name="district"
+          id="districtSelect"
+        >
+          <option class="text-nowrap text-[#495057]" value="台北市">
+            台北市
+          </option>
+          <option class="text-nowrap text-[#495057]" value="台中市">
+            台中市
+          </option>
+          <option class="text-nowrap text-[#495057]" value="高雄市">
+            高雄市
+          </option>
+        </select>
+        <!-- <button
           class="flex w-full items-center justify-between border border-[#CED4DA] px-3 py-[6px] md:w-[19rem]"
           type="button"
         >
@@ -32,7 +48,7 @@
           <li><a href="#">台北</a></li>
           <li><a href="#">新北</a></li>
           <li><a href="#">台中</a></li>
-        </ul>
+        </ul> -->
       </div>
       <ul class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         <li class="locationCard">
