@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to hexWeek3 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.0.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.3-blue.svg?cacheSeconds=2592000" />
 </p>
 
 > 第三、四周主線任務
