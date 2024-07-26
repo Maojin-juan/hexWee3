@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "css": "postcss src/assets/style/tailwind.css -o src/assets/style/style.css --watch",
-    "start": "run-p dev css",
+    "start": "run-p dev",
     "d": "vite build && gh-pages -d dist",
     "p": "prettier --write"
   },
