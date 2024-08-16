@@ -105,6 +105,10 @@
     @apply block py-3 text-center font-bold;
   }
 
+  .parallax {
+    @apply bg-cover bg-fixed bg-center bg-no-repeat;
+  }
+
   /* radio 選中狀態時添加紅色底部邊框 */
   .checked:checked + .checked::after {
     @apply bg-main;
