@@ -92,10 +92,6 @@
     @apply hover block bg-main py-3 text-center outline outline-1 outline-white md:py-6 md:outline-none;
   }
 
-  /* .navbar-list(old) {
-    @apply block text-nowrap border border-white px-[62px] py-3 hover:bg-white hover:text-main md:border-none md:px-0 md:pl-16;
-  } */
-
   .navbarGlasses-selected {
     @apply absolute bottom-0 left-0 h-2 w-full bg-transparent transition-colors duration-300;
     content: "";
@@ -132,11 +128,6 @@
 
   .colorBlock-dark {
     @apply block size-6 rounded border border-[#5F3E2D] bg-[#5F3E2D];
-  }
-
-  .quote {
-    @apply absolute left-[-4px] block h-9 w-2 bg-main md:h-[72px];
-    content: "";
   }
 
   .indexIcon {
